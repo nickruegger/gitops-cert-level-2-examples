@@ -17,7 +17,7 @@ spec:
           - clusters: {}
   template:
     metadata:
-      name: '{{name}}-many-app'
+      name: '{{name}}-{{server}}-many-app'
     spec:
       project: default
       source:
